@@ -1,0 +1,12 @@
+package Exemplos;
+
+public class Ex04 {
+    
+    public static void main(String[] args) {
+        
+    char letra = 'a';
+    int num = letra + 3;
+    letra = (char)num;
+    System.out.println(letra);
+    }
+}
