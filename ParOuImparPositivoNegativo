@@ -1,0 +1,28 @@
+package imparoupar;
+
+import java.util.Scanner;
+
+public class PositivoNegativo {
+
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Digite um número:");
+        int num = teclado.nextInt();
+
+        if (num % 2 == 0) {
+            // Número é par
+            if (num > 0) {
+                System.out.println("Número PAR e POSITIVO");
+            } else {
+                System.out.println("Número PAR e NEGATIVO");
+            }
+        } else {
+            // Número é ímpar
+            if (num > 0) {
+                System.out.println("Número ÍMPAR e POSITIVO");
+            } else {
+                System.out.println("Número ÍMPAR e NEGATIVO");
+            }
+        }
+    }
+}
